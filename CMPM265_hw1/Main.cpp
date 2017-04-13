@@ -14,7 +14,7 @@ int main()
 
 	// create the particle system
 	TrailParticleSystem mouseParticles(10);
-	TexturedParticleSystem staticParticles1(10, sf::Triangles, "cooltexture.png", sf::Vector2f(10, 10));
+	TexturedParticleSystem staticParticles1(10, sf::Triangles, "snowflake2.png", sf::Vector2f(225, 225));
 	ParticleSystem staticParticles2(100);
 	RainParticleSystem staticParticles3(100, sf::Lines, "", sf::Vector2f(0, 0));
 	TexturedParticleSystem staticParticles4(10, sf::Quads, "snowflake.png", sf::Vector2f(225, 225));
